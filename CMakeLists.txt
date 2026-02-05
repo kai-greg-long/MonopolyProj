@@ -6,13 +6,14 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(MonopolyProj
 
         src/main.cpp
-        src/Tile.cpp
-        include/Tile.h
-        src/PropertyTile.cpp
-        include/PropertyTile.h
-        include/PropertyTile.h
-        include/PropertyTile.h
-        include/PropertyTile.h
+        src/tiles/Tile.cpp
+        include/tiles/Tile.h
+        src/tiles/PropertyTile.cpp
+        include/tiles/PropertyTile.h
+        src/tiles/DrawTile.cpp
+        include/tiles/DrawTile.h
+        src/Card.cpp
+        include/Card.h
 )
 
 target_include_directories(MonopolyProj PRIVATE include)
