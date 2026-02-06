@@ -6,9 +6,9 @@ Card::Card(std::string description, Effect cardEffect)
      cardEffect(cardEffect)
 {}
 
-const std::string Card::getDescription() const {
+std::string Card::getDescription() const {
     return description;
 }
-const Effect Card::getEffect() const {
+Card::Effect Card::getcardEffect() {
     return cardEffect;
 }
